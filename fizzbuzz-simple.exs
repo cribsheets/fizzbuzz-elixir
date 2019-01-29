@@ -12,7 +12,7 @@
 # we can solve our exercise with a simple script.
 # we create a range (0..100) and use the Enum library
 # to iterate over the resulting enumeration
-Enum.each(0..100, fn(x) ->
+Enum.each(0..100, fn x ->
   # cond is a good choice here; the first condition that matches
   # will fire. the `true` condition at the end will catch all other
   # cases.
